@@ -23,22 +23,21 @@ public class Employee {
     public int getDepartment() {
         return department;
     }
-
-    public double getSalary() {
-        return salary;
-    }
-
     public void setDepartment(int department) {
         this.department = department;
     }
 
+    public double getSalary() {
+        return salary;
+    }
     public void setSalary(double salary) {
         this.salary = salary;
     }
 
+
     @Override
     public String toString (){
-        return "ID: " + this.id + " ФИО " +  this.fullName + " Отдел: " + this.department + "Зарплата: " + this.salary;
+        return "ID: " + this.id + " ФИО " +  this.fullName + " Отдел: " + this.department + " Зарплата: " + this.salary;
     }
 
 }
